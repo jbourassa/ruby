@@ -7,4 +7,4 @@ edition = "2021"
 crate-type = ["cdylib"]
 
 [dependencies]
-rb-sys = "0.9.58"
+rb-sys = { git = "https://github.com/oxidize-rb/rb-sys.git", branch = "drop-old-rubies" }
